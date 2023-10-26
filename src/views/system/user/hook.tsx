@@ -25,7 +25,7 @@ export function useUser() {
       type: "selection",
       width: 55,
       align: "left",
-      hide: ({ checkList }) => !checkList.includes("勾选列")
+      hide: ({ checkList }) => !loading.includes("勾选列")
     },
     {
       label: "序号",
